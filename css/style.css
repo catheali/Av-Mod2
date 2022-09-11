@@ -1,18 +1,17 @@
-/* * {
-    box-sizing: border-box;
-} */
 html,body{
     height: 100%;
     min-height: 100vh;
-    padding-top: 10px;       
+    padding-top: 10px;    
+    margin: 0;
     background-color: #f4f4f4;
+    font-family:Metropolis;
 }
 @font-face {
     font-family: Metropolis;
     src: url(../font/Metropolis-Regular.otf);
 }
 .logo{
-    width: 8rem; 
+    width: 100px; 
     text-align: left;
     padding: 10px;
 } 
@@ -21,7 +20,6 @@ html,body{
     font-size: 10px;
 }
 td:last-child{
-    height: 50px;
     padding: 10px;
     border-left: 1px solid #aea9a8;
     text-align: left;
@@ -29,51 +27,69 @@ td:last-child{
 .get-button{
     border-style: none;
     border-radius: 25px;
-    padding: 20px;
+    padding: 20px 30px;
     font-family: Metropolis;
     font-size: 15px;
     background-color:#e63d27;
     color: #f4f4f4;
+    font-weight: bold;
 } 
-
 .get-button:hover{
     background-color: #f4f4f4;
     color:#e63d27;
-    border: 2px solid #e63d27;
+    border: 2px solid #e63d27;    
 }
 .blue{  
     font-family: Metropolis;
     color: #1082c4;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .container{
    display: table;
-   margin: auto;
+   margin-top: 50px;
+   margin-right: 130px;
+   margin-left: 130px;
    vertical-align: center;
+   background-color: #f4f4f4;
 }
 .imagem{
     display: table-cell;
     float:left;
  }
+ .ebook-img{
+    width:80%;
+ }
 .texto{
     display: table-cell;
     float: right;
+    padding-top: 20px;
 }
 .arrow{
-    padding-top: 50px;
-    margin: -50px;
+    padding-top: 130px;
+    margin: -105px;
 }
-
-p{
+.mais-p{
+    font-weight: bold;
     font-family: Metropolis;
 }
+.section-container{
+    display: flexbox;
+    padding-top: 100px;
+    margin-right: 130px;
+    margin-left: 130px;
+    vertical-align: center;
+    background-color: #f4f4f4;
+ }
 
-h1{
-    font-family: Metropolis;
-    font-size: 65px;
-}
+ /* input{
+    display: block;
+    margin:auto;
+    width: 300px;    
+ } */
 .box-shadow{        /*sombra do formulario*/
-    
+     
+  
     box-shadow: 0 0 20px 0  #1082c4 ;
 
 }
